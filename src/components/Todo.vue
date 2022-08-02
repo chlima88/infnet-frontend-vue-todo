@@ -38,7 +38,7 @@
     data() {
       return {
         inputTask: '',
-        taskList: [{"name": "Text", finished: false}]
+        taskList: []
       }
     },
     methods: {
