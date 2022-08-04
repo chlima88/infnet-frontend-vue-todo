@@ -44,6 +44,7 @@
     methods: {
       addTask() {
         this.taskList.push({name: this.inputTask, finished: false})
+        this.inputTask = ''
       },
       removeTask(task) {
         this.taskList = this.taskList.filter(taskInList => task!=taskInList)
